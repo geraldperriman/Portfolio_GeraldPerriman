@@ -1,0 +1,74 @@
+#logo-container{
+  color:goldenrod;
+  font-family: 'Nova Flat', cursive;
+}
+.btn, .btn-large {
+  text-decoration: none;
+  color:#daa520 ;
+  background-color: black;
+  text-align: center;
+  letter-spacing: .5px;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  cursor: pointer;
+  font-family: 'Nova Flat', cursive;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color:#daa520;
+    color:black;
+}
+
+h1,h5{
+  font-family: 'Nova Flat', cursive;
+  font-weight: bold;
+}
+a{
+  color:#daa520;
+}
+
+nav {
+  height: 150px;
+
+}
+#name {
+    color:#d11726;
+}
+
+.linkedin{
+  /*margin-top: 10px;
+  margin-right: -35px;*/
+  display: inline;
+}
+
+.github{
+  margin-top: 23px;
+  margin-right: -23px;
+}
+
+.gmail{
+  margin-top: 21px;
+  margin-right: -1px;
+}
+
+.linkedinfoot{
+  margin:-10px;
+
+}
+
+.githubfoot{
+  margin-top: 23px;
+  margin-right: -23px;
+}
+
+.gmailfoot{
+  margin-top: 21px;
+  margin-right: -1px;
+  margin-left: 27px;
+}
+#aboutme{
+  font-family: 'Nova Flat', cursive;
+}
+.techused{
+  font-family: 'Rozha One', serif;
+}
