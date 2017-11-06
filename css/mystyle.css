@@ -18,6 +18,10 @@
     background-color:#daa520;
     color:black;
 }
+btn:focus, .btn-large:focus, .btn-floating:focus {
+    background-color: black;
+    color:red;
+}
 
 h1,h5{
   font-family: 'Nova Flat', cursive;
@@ -31,24 +35,17 @@ nav {
   height: 150px;
 
 }
-#name {
-    color:#d11726;
-}
 
 .linkedin{
-  /*margin-top: 10px;
-  margin-right: -35px;*/
-  display: inline;
+  float:left;
 }
 
 .github{
-  margin-top: 23px;
-  margin-right: -23px;
+  float:right;
 }
 
 .gmail{
-  margin-top: 21px;
-  margin-right: -1px;
+  float:right;
 }
 
 .linkedinfoot{
@@ -62,13 +59,34 @@ nav {
 }
 
 .gmailfoot{
-  margin-top: 21px;
-  margin-right: -1px;
+ margin-right: -1px;
   margin-left: 27px;
+}
+.aboutmetitle{
+  font-family: 'Berkshire Swash', cursive;
+  color:#daa520 ;
 }
 #aboutme{
   font-family: 'Nova Flat', cursive;
 }
-.techused{
+#techused{
+
+  font-family: 'Indie Flower', cursive;
+}
+#name{
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+}
+#Projects{
+  font-family: 'Berkshire Swash', cursive;
+}
+
+#Checkwithme{
+  color:#daa520;
+  font-family: 'Berkshire Swash', cursive;
+
+}
+
+#cardtitle{
   font-family: 'Rozha One', serif;
+  font-weight: bold;
 }

@@ -11,21 +11,24 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/mystyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/hover-min.css" rel="stylesheet">
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
 </head>
 <body>
   <div class="container-fluid">
     <nav class="black">
       <div class="nav-wrapper">
-        <a href="#"><img id="headshot" src="assets/gp.png" class="brand-logo" alt="Gerald Perriman" /></a>
+        <a href="#"><img id="logo" src="assets/gp.png" class="brand-logo" alt="Gerald Perriman"/></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="contactcontainer" class="right hide-on-med-and-down">
-          <li><a target="_blank" href="https://www.linkedin.com/in/gerald-perriman"><img class="linkedin" src="assets/linkedin.png"  alt="Linkedin" /></a></li>
-          <li><a target="_blank" href="https://github.com/geraldperriman"><img class="github" src="assets/githubgp.png"  alt="Git Hub" /></a></li>
-          <li><a href="mailto:geraldperriman@gmail.com"><img class="gmail" src="assets/gmailgold.png"  alt="Gmail" /></a></li>
+          <li><a href="#Projects" id="Projects">Projects</a></li>
+          <li><a target="_blank" href="#Projects">About Me</a></li>
+          <li><a target="_blank" href="#Projects">Contact</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li><a href="https://github.com/geraldperriman" class="navfont">GitHub</a></li>
@@ -42,78 +45,134 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center white-text text-lighten-2">Gerald Perriman</h1>
+        <h1 class="header center white-text text-lighten-2" id="name" >Gerald Perriman</h1>
         <div class="row center">
-          <h5 class="header col white-text s12">Let's Create Something Great!</h5>
+          <h5 class="header col white-text s12" id="name">Let's Create Something Great!</h5>
         </div>
         <div class="row center">
-            <a target="_blank" href="assets/GeraldPerrimanResume.pdf" id="download-button" id="download-button" class="btn-large waves-effect waves-amber accent-4">Gerald's Resume</a>
-              <div class="row">
-                <li><a target="_blank" class="left-align" href="https://www.linkedin.com/in/gerald-perriman"><img class="linkedin" src="assets/linkedin.png"  alt="Linkedin" /></a></li>
-                <li><a target="_blank" href="https://github.com/geraldperriman"><img class="github" src="assets/githubgp.png"  alt="Git Hub" /></a></li>
-                <li><a href="mailto:geraldperriman@gmail.com"><img class="gmail" src="gmail_logo-black-gold.png"  alt="Gmail" /></a></li>
-              </div>
+            <div class="row center">
+                <div class = "col s10 left-align">
+                    <div class="col s4 center-align">
+                        <a target="_blank" href="https://github.com/geraldperriman"><img class="github" src="assets/github-icon.png"  alt="Git Hub" /></a>
+                        </div>
+                    <div class="col s4 center-align">
+                        <a href="mailto:geraldperriman@gmail.com"><img class="gmail" src="assets/gmail-gold.png"  alt="Gmail" /></a>
+                    </div>
+                    <div class="col s4 right-align">
+                        <a target="_blank" href="https://www.linkedin.com/in/gerald-perriman/"><img class="linkedin" src="assets/linkedin-circleblk.png"  alt="LinkedIn" /></a>
+                   </div>
+          </div>
         </div>
       </div>
+      <div class="row center">
+          <a target="_blank" href="assets/resume.pdf" id="download-button" class="btn-large waves-effect waves-light">My Resume</a>
+        </div>
     </div>
+  </div>
     <div class="parallax"><img src="red.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
   <div class="container">
     <div class="section">
-
-      <!--   Icon Section   -->
-        <div class="row">
-          <h4 class="center light">Projects</h4>
-        </div>
       <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-          <a href="https://geraldperriman.github.io/checkwithme/homepage.html?phone="><img src="checkwithme.png" img class="responsive-img" alt="checkwithme.png">
-            <h5 class="center">Check With Me</h5>
-            <p class="light black-text">Check with Me is a web application any consumer, small business, or organization can use to prevent becoming the victim of a fraudulent transaction by verifying the name and address of another person.  Users input just their phone number, and our application will return a report of the data based on the White Pages Pro API.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <a href="https://allthenewsapp2017.herokuapp.com/"><img src="falconsnewsscrape.png" img class="responsive-img" alt="falconsnewsscrape.png">
-            <h5 class="center">Atlanta Falcons News Center</h5>
-            <p class="light black-text">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <a href="http://swolely-grail.herokuapp.com/"><img src="swolely-grail.png" img class="responsive-img" alt="swolely-grail.png">
-              <h5 class="center">Swolely Grail</h5>
-              <p class="light black-text">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-
+        <h4 class="center light" id="Projects">Projects</h4>
       </div>
+
+      <div class="row">
+      <div class="col s12 m12 l4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="checkwithme.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator black-text text-darken-4" id="cardtitle">Check With Me<i class="material-icons right">more_vert</i></span>
+            <p><a target="_blank" href="https://geraldperriman.github.io/checkwithme/homepage.html?phone=">View the site here!</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title black-text text-darken-4" id="cardtitle">Check With Me<i class="material-icons right">close</i></span>
+            <p>We all been victims of unwanted , random or  spam phone calls at one time or another. Now with<span id="Checkwithme" href=""> Check With Me </span> you can search any United States domestic phone number to find out who is calling, their possible associaties and previous addresses, and where the call is coming from using the Google Maps API. With this great information you are then  able to make a well informed decision on what numbers you should be blocking or not answering.
+              <br>
+              <br>
+              Check With Me is a web application that uses  API calls to gather information from the Reverse Phone White Pages API and the Google Maps API. After the JSON object return from the WhitePages API, it then displays specific information to the user, then updates Google Maps with lat-long coordinates to show where the call is coming from.
+              <br>
+              <br>
+              Check it out here:</p><a target="_blank" href= "https://geraldperriman.github.io/checkwithme/homepage.html?phone="/>Check With Me</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m12 l4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="falconsnewsscrape.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator black-text text-darken-4" id="cardtitle">Atlanta Falcons News<i class="material-icons right">more_vert</i></span>
+            <p><a target="_blank" href="https://allthenewsapp2017.herokuapp.com/">Click Here For Falcons News!</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title black-text text-darken-4" id="cardtitle">Atlanta Falcons News<i class="material-icons right">close</i></span>
+            <p>The Great DB8 is a full stack debate website that allows users to create an account and comment on admin curated topics.
+              <br>
+              <br>
+              This web application utilizes HTML, CSS, and Javascript on the front end. The back end utilizes Node.js as its server framework, Express.js for routing endpoints, MySQL as its database, Sequelize for creating object models, and handlebars to render pages to the front end. We relied heavily on GitHub to push and merge code as we worked together.
+               Developed majority of front end design/UI, worked heavily in routing with express/handlebars, and helped design database schema.
+               <br>
+               <br>
+               Get your football news here:</p><a target="_blank" href= "https://allthenewsapp2017.herokuapp.com/"/>ATL Falcons News</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m12 l4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="swolely-grail.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator black-text text-darken-4" id="cardtitle">Swolely Grail<i class="material-icons right">more_vert</i></span>
+            <p><a target="_blank" href="http://swolely-grail.herokuapp.com/">Come Log Your Workout!</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4" id="cardtitle">Swolely Grail<i class="material-icons right">close</i></span>
+            <p>This is a web app that allows users to create custom workout routines and track their progress.
+              Create an account, make a routine, and log your progress during each workout. Using the Meteor framework for NodeJS, the application can work both on your computer as well as mobile device.
+              The ability to move seemlessly between computer to mobile, is what makes our app ideal for those looking to get in shape. Spare your thumbs by navigating to our webpage on your home computer to make a routine. And when you're ready to hit the gym, use the app to log your progress between each set.</p>
+            <br>
+            <br>
+            View it in action here:</p><a target="_blank" href= "http://swolely-grail.herokuapp.com/"/>Swolely Grail</a>
+          </div>
+        </div>
+      </div>
+
+
     </div>
+  </div>
   </div>
 
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="center">
-      <h3 class="techused">Technologies Used</h3>
+      <h3 class="white-text" id="techused">Technologies Used</h3>
       <div class="container">
-        <div class="row">
-              <span><img class="css" src="assets/css3.png" alt="css3" /></span>
-              <span><img class="html" src="assets/html.png" alt="HTML" /></span>
-              <span><img class="js" src="assets/JS.png" alt="Javascript" /></span>
-              <span><img class="mongodb" src="assets/mongodb.jpg" alt="mongodb" /></span>
-              <span><img class="react" src="assets/react.png" alt="react" /></span>
-          <div class ="row">
-              <span><img class="jQuery" src="assets/JQuery.png" alt="git" /></span>
-              <span><img class="node" src="assets/node.png" alt="node" /></span>
-              <span><img class="firebase" src="assets/firebase.png" alt="node" /></span>
-              <span><img class="heroku" src="assets/heroku.png" alt="node" /></span>
-              <span><img class="mysql" src="assets/mysql.png" alt="node" /></span>
+        <div class="section">
+        </div>
+        <div class="row s12 m12 l6" id="section1">
+              <span class="s4" ><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img class="css" src="assets/css3.png" alt="css3" /></span></a>
+              <span class="s4" ><a href="https://www.w3schools.com/html/html5_intro.asp"  target="_blank"><img class="html"  class="img-responsive"  src="assets/html.png" alt="HTML" /></span>
+              <span class="s4" ><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction" target="_blank"><img class="js" class="img-responsive" src="assets/JS.png" alt="Javascript" /></span>
+              <span class="s4" ><a href="https://www.mongodb.com/" target="_blank"><img class="mongodb" class="img-responsive"  src="assets/mongodb.jpg" alt="mongodb" /></span>
+              <span class="s4" ><a href="https://reactjs.org/" target="_blank"><img class="react"  class="img-responsive" src="assets/react.png" alt="react" /></span>
+      <div class="section">
+      </div>
+          <div class ="row s12 m12 l6" id="section2">
+              <span class="s4" ><a href="http://jquery.com/"  target="_blank"><img class="jQuery" class="img-responsive" src="assets/JQuery.png" alt="jQuery" /></span>
+              <span class="s4"><a href="https://nodejs.org/en/" target="_blank"><img class="node"  class="img-responsive" src="assets/node.png" alt="node" /></span>
+              <span class="s4"><a href="https://firebase.google.com/"  target="_blank"><img class="firebase" class="img-responsive" src="assets/firebase.png" alt="firebase" /></span>
+              <span class="s4"><a href="https://dashboard.heroku.com/" target="_blank"><img class="heroku" class="img-responsive" src="assets/heroku.png" alt="heroku" /></span>
+              <span class="s3"><a href="https://www.mysql.com/" target="_blank"><img class="mysql" class="img-responsive" src="assets/mysql.png" alt="mysql" /></span>
           </div>
       </div>
     </div>
@@ -128,8 +187,10 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4 class="black-text" id="aboutme" >About Me</h4>
-          <p class="left-align light black-text" id="aboutme">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <h3 class="aboutmetitle" >About Me</h3>
+          <h5 class="left-align light black-text" id="aboutme">Hello World! My name is Gerald Perriman.I'm a Web Developer with a passion for UI/UX Design, Front-End/Back-End Developement.
+            Born and raised in Atlanta, Georgia.I obtaining a Bacheolrs in Business Administration from the Univeristy of West Georgia.
+            I have a diverse set of skills, ranging from design, to <span class="hello"> HTML + CSS + Javascript/JQuery + NodeJS + MongoDB.</span></h5>
         </div>
       </div>
 
@@ -156,7 +217,7 @@
           <div class ="row">
             <a target="_blank" href="https://www.linkedin.com/in/gerald-perriman"><img class="linkedinfoot" src="assets/linkedin.png"  alt="Linkedin" /></a></li>
             <a target="_blank" href="https://github.com/geraldperriman"><img class="githubfoot" src="assets/githubgp.png"  alt="Git Hub" /></a></li>
-            <a href="mailto:geraldperriman@gmail.com"><img class="gmailfoot" src="assets/gmailgold.png"  alt="Gmail" /></a></li>
+            <a href="mailto:geraldperriman@gmail.com"><img class="gmailfoot" src="assets/gmail-whitegold.png"  alt="Gmail" /></a></li>
         </div>
         </div>
       </div>

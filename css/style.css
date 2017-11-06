@@ -8,7 +8,9 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #daa520;
+  font-family: 'Nova Flat', cursive;
+  font-size: 1.3em;
 }
 
 p {
@@ -16,7 +18,7 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: #daa520;
 }
 
 .parallax-container {
@@ -28,6 +30,7 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -54,4 +57,33 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+.row .col.s10 {
+  width: 22.333333%;
+  margin:auto;
+  left: auto;
+  right: auto;
+  display:inline-block;
+}
+#section2{
+  padding: 1em;
+  float: left;
+  margin-left: 10rem;
+  margin-right: 2rem;
+}
+
+.firebase{
+  margin-left: 1rem;
+}
+
+.heroku{
+  margin-left: 2rem;
+}
+
+.mysql{
+  margin-left: 2rem;
+}
+.hello{
+  color:goldenrod;
+
 }
