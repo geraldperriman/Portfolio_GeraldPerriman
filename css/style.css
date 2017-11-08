@@ -116,5 +116,5 @@ footer.page-footer {
     font-family: 'Nova Flat', cursive;
 }
 .side-nav li > a:active {
-    color: white;
+    color: red;
 }
