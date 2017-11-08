@@ -111,3 +111,10 @@ footer.page-footer {
 .namefooter{
   color:red;
 }
+.side-nav li > a:hover {
+    color:red;
+    font-family: 'Nova Flat', cursive;
+}
+.side-nav li > a:active {
+    color: white;
+}
