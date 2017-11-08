@@ -36,25 +36,27 @@ nav {
 
 }
 
-.linkedin{
+#linkedin{
   float:left;
+  margin-top: -0.01rem;
 }
 
-.github{
+#github{
   float:right;
+  margin-top: -0.4rem;
 }
 
-.gmail{
+#gmail{
   float:right;
+  margin-top: -0.3rem;
 }
 
 .linkedinfoot{
-  margin:-10px;
+  margin:11px;
 
 }
 
 .githubfoot{
-  margin-top: 23px;
   margin-right: -23px;
 }
 
@@ -89,4 +91,19 @@ nav {
 #cardtitle{
   font-family: 'Rozha One', serif;
   font-weight: bold;
+}
+
+#contactmain {
+  display:flex;
+  flex-shrink:inherit;
+  justify-content: center;
+}
+#contactcontain{
+  display:flex;
+  flex-shrink:inherit;
+  justify-content: center;
+}
+#contactcard{
+  background: transparent;
+  border-style:hidden;
 }

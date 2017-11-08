@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
   <title>Gerald Perriman</title>
 
   <!-- CSS  -->
@@ -11,29 +11,30 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/mystyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/hover-min.css" rel="stylesheet">
+  <link href="css/hover-min.css" rel="stylesheet" media="all">
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
 
 </head>
 <body>
   <div class="container-fluid">
     <nav class="black">
       <div class="nav-wrapper">
-        <a href="#"><img id="logo" src="assets/gp.png" class="brand-logo" alt="Gerald Perriman"/></a>
+        <a href="#"><img id="logo" src="assets/icons/gp.png" class="brand-logo" alt="Gerald Perriman"/></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="contactcontainer" class="right hide-on-med-and-down">
-          <li><a href="#Projects" id="Projects">Projects</a></li>
-          <li><a target="_blank" href="#Projects">About Me</a></li>
-          <li><a target="_blank" href="#Projects">Contact</a></li>
+          <li><a target="_blank" href="#Projects">Projects</a></li>
+          <li><a target="_blank" href="#AboutMe">About Me</a></li>
+          <li><a target="_blank" href="#Contact">Contact</a></li>
         </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="https://github.com/geraldperriman" class="navfont">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/gerald-perriman" class="navfont">Linkedin</a></li>
-          <li><a href="mailto:geraldperriman@gmail.com" class="navfont">Gmail</a></li>
+        <ul class="side-nav" id="mobile-demo"><img class="img-responsive" src="assets/gp.png">
+          <li><a href="https://github.com/geraldperriman" class="navfont">Projects</a></li>
+          <li><a href="https://www.linkedin.com/in/gerald-perriman" class="navfont">Contact</a></li>
+          <li><a target="_blank" href="assets/resume.pdf" id="download-button" class="navfont">My Resume</a></li>
         </ul>
       </div>
     </nav>
@@ -49,41 +50,51 @@
         <div class="row center">
           <h5 class="header col white-text s12" id="name">Let's Create Something Great!</h5>
         </div>
-        <div class="row center">
-            <div class="row center">
-                <div class = "col s10 left-align">
-                    <div class="col s4 center-align">
-                        <a target="_blank" href="https://github.com/geraldperriman"><img class="github" src="assets/github-icon.png"  alt="Git Hub" /></a>
+          <div class="container" id="contactcontain">
+        <div class="row center" id="contactmain">
+        <div class="s12 m12 l4">
+        <div class="valign-wrapper">
+          <div class="card" id="contactcard">
+            <div class="card-content">
+                  <span class="row right">
+                    <div class="col s4 hvr-float" id="github">
+                        <a target="_blank" href="https://github.com/geraldperriman"><img class="img-responsive" src="assets/icons/github-icon.png"  alt="Git Hub" /></a>
                         </div>
-                    <div class="col s4 center-align">
-                        <a href="mailto:geraldperriman@gmail.com"><img class="gmail" src="assets/gmail-gold.png"  alt="Gmail" /></a>
+                    <div class="col s4 hvr-float" id="gmail">
+                        <a href="mailto:web.dev.gerald@gmail.com"><img class="img-responsive" src="assets/icons/gmail-head.png"  alt="Gmail" /></a>
                     </div>
-                    <div class="col s4 right-align">
-                        <a target="_blank" href="https://www.linkedin.com/in/gerald-perriman/"><img class="linkedin" src="assets/linkedin-circleblk.png"  alt="LinkedIn" /></a>
+                    <div class="col s4 hvr-float" id="linkedin">
+                        <a target="_blank" href="https://www.linkedin.com/in/gerald-perriman/"><img class="img-responsive" src="assets/icons/linkedin-circleblk.png"  alt="LinkedIn" /></a>
                    </div>
+              </span>
           </div>
         </div>
-      </div>
-      <div class="row center">
-          <a target="_blank" href="assets/resume.pdf" id="download-button" class="btn-large waves-effect waves-light">My Resume</a>
         </div>
+      </div>
     </div>
   </div>
-    <div class="parallax"><img src="red.jpg" alt="Unsplashed background img 1"></div>
+          <div class="card-action">
+      <div class="row center">
+          <a target="_blank" href="assets/resume.pdf" id="download-button" class="btn-large waves-effect waves-red hvr-float">My Resume</a>
+        </div>
+           </div>
+         </div>
+       </div>
+    <div class="parallax"><img src="assets/images/red.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
   <div class="container">
     <div class="section">
       <div class="row">
-        <h4 class="center light" id="Projects">Projects</h4>
+        <h4 class="center light" id="Projects" hr>Projects</h4>
       </div>
 
       <div class="row">
       <div class="col s12 m12 l4">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="checkwithme.png">
+            <img class="activator" src="assets/images/checkwithme.png">
           </div>
           <div class="card-content">
             <span class="card-title activator black-text text-darken-4" id="cardtitle">Check With Me<i class="material-icons right">more_vert</i></span>
@@ -104,8 +115,8 @@
 
       <div class="col s12 m12 l4">
         <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="falconsnewsscrape.png">
+          <div class="card-image waves-effect waves-block waves-red">
+            <img class="activator" src="assets/images/falconsnewsscrape.png">
           </div>
           <div class="card-content">
             <span class="card-title activator black-text text-darken-4" id="cardtitle">Atlanta Falcons News<i class="material-icons right">more_vert</i></span>
@@ -113,11 +124,10 @@
           </div>
           <div class="card-reveal">
             <span class="card-title black-text text-darken-4" id="cardtitle">Atlanta Falcons News<i class="material-icons right">close</i></span>
-            <p>The Great DB8 is a full stack debate website that allows users to create an account and comment on admin curated topics.
+            <p> A news web app that lets users leave comments on the latest Atlanta Falcons news using Mongoose and Cheerio to scrape news from the Atlanta Falcons Reddit site.
               <br>
               <br>
-              This web application utilizes HTML, CSS, and Javascript on the front end. The back end utilizes Node.js as its server framework, Express.js for routing endpoints, MySQL as its database, Sequelize for creating object models, and handlebars to render pages to the front end. We relied heavily on GitHub to push and merge code as we worked together.
-               Developed majority of front end design/UI, worked heavily in routing with express/handlebars, and helped design database schema.
+              This web application utilizes HTML, Bootstrap, and Javascript on the front end. The back end utilizes Mongoose and Cheerio.
                <br>
                <br>
                Get your football news here:</p><a target="_blank" href= "https://allthenewsapp2017.herokuapp.com/"/>ATL Falcons News</a>
@@ -127,8 +137,8 @@
 
       <div class="col s12 m12 l4">
         <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="swolely-grail.png">
+          <div class="card-image waves-effect waves-block waves-red">
+            <img class="activator" src="assets/images/swolely-grail.png">
           </div>
           <div class="card-content">
             <span class="card-title activator black-text text-darken-4" id="cardtitle">Swolely Grail<i class="material-icons right">more_vert</i></span>
@@ -160,26 +170,27 @@
         <div class="section">
         </div>
         <div class="row s12 m12 l6" id="section1">
-              <span class="s4" ><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img class="css" src="assets/css3.png" alt="css3" /></span></a>
-              <span class="s4" ><a href="https://www.w3schools.com/html/html5_intro.asp"  target="_blank"><img class="html"  class="img-responsive"  src="assets/html.png" alt="HTML" /></span>
-              <span class="s4" ><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction" target="_blank"><img class="js" class="img-responsive" src="assets/JS.png" alt="Javascript" /></span>
-              <span class="s4" ><a href="https://www.mongodb.com/" target="_blank"><img class="mongodb" class="img-responsive"  src="assets/mongodb.jpg" alt="mongodb" /></span>
-              <span class="s4" ><a href="https://reactjs.org/" target="_blank"><img class="react"  class="img-responsive" src="assets/react.png" alt="react" /></span>
+              <span class="s4" ><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img class="img-responsive"  src="assets/images/css3.png" alt="css3" /></span></a>
+              <span class="s4" ><a href="https://www.w3schools.com/html/html5_intro.asp"  target="_blank"><img class="img-responsive"  src="assets/images/html.png" alt="HTML" /></span>
+              <span class="s4" ><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction" target="_blank"><img class="img-responsive" src="assets/images/JS.png" alt="Javascript" /></span>
+              <span class="s4" ><a href="https://www.mongodb.com/" target="_blank"><img class="img-responsive"  src="assets/images/mongodb.jpg" alt="mongodb" /></span>
+              <span class="s4" ><a href="https://reactjs.org/" target="_blank"><img class="img-responsive" src="assets/images/react.png" alt="react" /></span>
       <div class="section">
       </div>
           <div class ="row s12 m12 l6" id="section2">
-              <span class="s4" ><a href="http://jquery.com/"  target="_blank"><img class="jQuery" class="img-responsive" src="assets/JQuery.png" alt="jQuery" /></span>
-              <span class="s4"><a href="https://nodejs.org/en/" target="_blank"><img class="node"  class="img-responsive" src="assets/node.png" alt="node" /></span>
-              <span class="s4"><a href="https://firebase.google.com/"  target="_blank"><img class="firebase" class="img-responsive" src="assets/firebase.png" alt="firebase" /></span>
-              <span class="s4"><a href="https://dashboard.heroku.com/" target="_blank"><img class="heroku" class="img-responsive" src="assets/heroku.png" alt="heroku" /></span>
-              <span class="s3"><a href="https://www.mysql.com/" target="_blank"><img class="mysql" class="img-responsive" src="assets/mysql.png" alt="mysql" /></span>
+              <span class="s4" ><a href="http://jquery.com/"  target="_blank"><img class="jQuery" class="img-responsive" src="assets/images/JQuery.png" alt="jQuery" /></span>
+              <span class="s4"><a href="https://nodejs.org/en/" target="_blank"><img class="node"  class="img-responsive" src="assets/images/node.png" alt="node" /></span>
+              <span class="s4"><a href="https://firebase.google.com/"  target="_blank"><img class="firebase" class="img-responsive" src="assets/images/firebase.png" alt="firebase" /></span>
+              <span class="s4"><a href="https://dashboard.heroku.com/" target="_blank"><img class="heroku" class="img-responsive" src="assets/images/heroku.png" alt="heroku" /></span>
+              <span class="s3"><a href="https://www.mysql.com/" target="_blank"><img class="mysql" class="img-responsive" src="assets/images/mysql.png" alt="mysql" /></span>
           </div>
       </div>
     </div>
     </div>
     </div>
-    <div class="parallax"><img src="assets/background1.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="assets/images/background1.jpg" alt="Unsplashed background img 2"></div>
   </div>
+
 
   <div class="container">
     <div class="section">
@@ -187,7 +198,7 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h3 class="aboutmetitle" >About Me</h3>
+          <h3 class="aboutmetitle" id="AboutMe" >About Me</h3>
           <h5 class="left-align light black-text" id="aboutme">Hello World! My name is Gerald Perriman.I'm a Web Developer with a passion for UI/UX Design, Front-End/Back-End Developement.
             Born and raised in Atlanta, Georgia.I obtaining a Bacheolrs in Business Administration from the Univeristy of West Georgia.
             I have a diverse set of skills, ranging from design, to <span class="hello"> HTML + CSS + Javascript/JQuery + NodeJS + MongoDB.</span></h5>
@@ -201,29 +212,26 @@
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
-        <div class="row center">
-          <!-- <h5 class="header col black-text s12 light">“Success is not final, failure is not fatal: it is the courage to continue that counts.”</h5> -->
-        </div>
       </div>
     </div>
-    <div class="parallax"><img src="assets/hireme3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="assets/images/hireme3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer black">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Contact Gerald Perriman</h5>
+          <h5 class="white-text">Contact<span class="namefooter"> Gerald Perriman</span></h5>
           <div class ="row">
-            <a target="_blank" href="https://www.linkedin.com/in/gerald-perriman"><img class="linkedinfoot" src="assets/linkedin.png"  alt="Linkedin" /></a></li>
-            <a target="_blank" href="https://github.com/geraldperriman"><img class="githubfoot" src="assets/githubgp.png"  alt="Git Hub" /></a></li>
-            <a href="mailto:geraldperriman@gmail.com"><img class="gmailfoot" src="assets/gmail-whitegold.png"  alt="Gmail" /></a></li>
+            <a target="_blank" href="https://www.linkedin.com/in/gerald-perriman"><img class="linkedinfoot hvr-float" src="assets/icons/footer-linkedin.png"  alt="Linkedin" /></a></li>
+            <a target="_blank" href="https://github.com/geraldperriman"><img class="githubfoot hvr-float" src="assets/icons/github-footer.png"  alt="Git Hub" /></a></li>
+            <a href="mailto:web.dev.gerald@gmail.com"><img class="gmailfoot hvr-float" src="assets/icons/gmail-footer.png"  alt="Gmail" /></a></li>
         </div>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
+      <div class="container" id="Contact">
       Made by <a class="amber-text " href="assets/Gerald PerrimanResume.pdf">Gerald Perriman</a>
       </div>
     </div>
