@@ -95,7 +95,7 @@ footer.page-footer {
 
 .side-nav li > a {
     color:#daa520;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Permanent Marker', cursive;
     display: block;
     font-size: 16px;
     font-weight: 500;
@@ -118,3 +118,9 @@ footer.page-footer {
 .side-nav li > a:active {
     color: red;
 }
+
+nav ul a:hover {
+    color: red;
+    font-family: 'Permanent Marker', cursive;
+    font-size:1.8em;
+  }
