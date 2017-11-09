@@ -17,6 +17,7 @@
 .btn:hover, .btn-large:hover {
     background-color:#daa520;
     color:black;
+    font-family: 'Permanent Marker', cursive;
 }
 btn:focus, .btn-large:focus, .btn-floating:focus {
     background-color: black;
